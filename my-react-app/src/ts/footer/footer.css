@@ -1,0 +1,13 @@
+.footer {
+  background-color: #0067A3;
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 337px) {
+  .footer{
+      display: none;
+    }
+  }
