@@ -1,9 +1,11 @@
 import React from "react"
+import "./App.css"
+import Header from "./ts/header/header"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">88888</header>
+      <Header />
       {/* <main/> */}
       {/* <footer/> */}
     </div>
