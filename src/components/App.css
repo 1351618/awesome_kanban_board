@@ -6,6 +6,20 @@
   font-style: normal;
 }
 
+html {
+  height: 100%;
+}
+.vsc-initialized {
+  margin: 0px;
+  height: 100%;
+}
+body {
+  margin: 0px;
+}
+
+.root {
+  height: 100%;
+}
 
 .App {
   font-family: 'Roboto', sans-serif;
