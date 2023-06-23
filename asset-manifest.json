@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/awesome_kanban_board/static/css/main.1a8483ae.css",
-    "main.js": "/awesome_kanban_board/static/js/main.06485c80.js",
+    "main.css": "/awesome_kanban_board/static/css/main.0bc91be1.css",
+    "main.js": "/awesome_kanban_board/static/js/main.738a9d74.js",
     "static/media/Roboto-Bold.ttf": "/awesome_kanban_board/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/Roboto-Light.ttf": "/awesome_kanban_board/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
     "index.html": "/awesome_kanban_board/index.html",
-    "main.1a8483ae.css.map": "/awesome_kanban_board/static/css/main.1a8483ae.css.map",
-    "main.06485c80.js.map": "/awesome_kanban_board/static/js/main.06485c80.js.map"
+    "main.0bc91be1.css.map": "/awesome_kanban_board/static/css/main.0bc91be1.css.map",
+    "main.738a9d74.js.map": "/awesome_kanban_board/static/js/main.738a9d74.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8483ae.css",
-    "static/js/main.06485c80.js"
+    "static/css/main.0bc91be1.css",
+    "static/js/main.738a9d74.js"
   ]
 }
