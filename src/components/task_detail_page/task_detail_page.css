@@ -1,0 +1,20 @@
+.task-detail-page {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    position: absolute;
+    margin: 80px 3vw;
+}
+
+.task-detail-page_button {
+    border: none;
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    background-color: #ffffff;
+    cursor: pointer;
+}

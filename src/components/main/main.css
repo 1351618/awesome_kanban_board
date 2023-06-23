@@ -1,10 +1,17 @@
 .main {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    padding: 20px;
+    background-color: #0079BF;
+}
+
+.main-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    margin-top: 8vw;
 }
-
 .main__block {
     background-color: #EBECF0;
     border-radius: 10px;
@@ -46,9 +53,36 @@
 
 
 
-.main__block-button {
+.main__block-button_add {
     border: none;
     color: #5E6C84;
     font-size: 18px;
     align-self: flex-start;
+}
+
+
+.main__block-button_submit {
+    background-color: #0079BF;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+.backlog{
+    background-color: #EBECF0;
+}
+.title_button {
+  background-color: #ffffff;
+  margin: 9px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  font-size: 18px; /* Задает размер шрифта */
+  text-align: left; /* Выравнивает текст влево */
 }

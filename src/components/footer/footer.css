@@ -1,0 +1,27 @@
+.footer {
+  background-color: #0067A3;
+  height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  size: 18px;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+}
+
+.footer__task-information {
+  display: flex;
+  margin-left: 3vw;
+}
+
+.footer__user-information {
+  margin-right: 3vw;
+}
+
+@media (max-width: 337px) {
+  .footer{
+      display: none;
+    }
+  }
