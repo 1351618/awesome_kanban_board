@@ -8,21 +8,14 @@ import TaskDetailPage from './task_detail_page/task_detail_page';
 
 function App() {
   return (
+    <div className="App">
+      <Header />
       <Routes>
-        <Route path="/" element={
-          <div className="App">
-            <Header />
-            <Main />
-            <Footer />
-          </div>} />
-        <Route path="/:id" element={
-        <div className="App">
-          <Header />
-          <TaskDetailPage />
-          <Footer />
-        </div>} />
+        <Route path="/awesome_kanban_board" element={<Main />} />
+        <Route path="/:id" element={<TaskDetailPage />} />
       </Routes>
-
+      <Footer />
+    </div>
   );
 }
 
