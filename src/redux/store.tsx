@@ -3,10 +3,8 @@ import reducer from './reducer';
 import thunk from 'redux-thunk';
 
 
-
-// Создаем middleware
 const loggerMiddleware = (store: any) => (next: any) => (action: any) => {
-  console.log("store.js  ===  ", action.payload); // Вывод полученных данных в консоль
+  console.log("store.js  ===  ", action.payload); 
   return next(action);
 };
 
